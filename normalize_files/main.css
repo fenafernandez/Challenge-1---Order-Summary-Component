@@ -1,13 +1,12 @@
 html {
-  background: rgb(155, 57, 57);
-  color: #333;
+  background: rgb(255, 255, 255);
+  color: rgb(163, 30, 30);
   font: 16px/1.4 Open Sans, Helvetica, Arial, sans-serif;
 }
 
 body {
   max-width: 720px;
   padding: 20px 40px;
-  border: solid 20px black;
   margin: 0 auto;
 }
 

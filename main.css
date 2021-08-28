@@ -5,10 +5,5 @@
 .order{
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 900;
-    background: url(images/pattern-background-mobile.svg);
-    display: flex;
-    flex-basis: 100% ;
-    flex-direction: column;
-    max-height: 20vh;
 }
 

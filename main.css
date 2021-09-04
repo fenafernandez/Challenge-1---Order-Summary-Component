@@ -70,6 +70,7 @@ body {
 }
 .annual-plan {
     display: block;
+    font-size: .8em;
 }
 
 .annual-plan p:first-of-type {
@@ -108,5 +109,4 @@ a {
 footer {
     position: absolute;
     bottom: 0;
-
 }

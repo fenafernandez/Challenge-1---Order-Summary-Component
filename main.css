@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&display=swap');
+
 *, *::before , *::after {
     box-sizing: border-box;
     margin: 0;
@@ -8,5 +10,45 @@ body {
     display: flex;
     flex-direction: column;
     background-image: url(images/pattern-background-mobile.svg);
+    background-color: rgba(87, 160, 255, 0.3);
     background-repeat: no-repeat;
+    font-family: 'Red Hat Display', sans-serif;
+    
+}
+
+.card {
+    width: 80%;
+    height: 80vh;
+    margin: 15% auto;
+    border: .5px solid none ;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: whitesmoke;
+    /* outline: 10px solid black;    just for test */
+}
+
+.cardhero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.order {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem auto;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.sales-pitch {
+    display: flex;
+    flex-direction: column;
+    width: 78%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.hook p {
+    opacity: .8 ;
 }

@@ -18,7 +18,7 @@ body {
 
 .card {
     width: 80%;
-    height: 80vh;
+    height: 65vh;
     margin: 15% auto;
     border: .5px solid none ;
     border-radius: 15px;
@@ -49,6 +49,64 @@ body {
     flex-wrap: wrap;
 }
 
-.hook p {
+.sales-pitch p {
     opacity: .8 ;
+
+}
+
+.plan {
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    margin: 2em auto;
+    align-items: center ;
+    justify-content: space-evenly;
+    background-color: rgba(213, 221, 226, 0.233);
+    border-radius: 15px;
+}
+
+.plan img {
+    margin: 5px;
+}
+.annual-plan {
+    display: block;
+}
+
+.annual-plan p:first-of-type {
+    font-weight: 700;
+}
+
+a {
+    font-weight: 700;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto ;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.payment {
+    display: flex;
+    font-weight: 700;
+    background-color: rgb(88, 58, 221);
+    padding: 1em 1em;
+    border-radius: 15px;
+    width: 95%;
+    justify-content: center;
+}
+
+
+
+
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+
 }
